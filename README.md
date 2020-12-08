@@ -17,9 +17,12 @@ The output will be printed in the terminal.
 
 ## How to use :
 
-Install chrome driver according to the version of your chrome 
+1. Install chrome driver according to the version of your chrome 
 #### https://chromedriver.chromium.org/downloads
 
-Install selenium ( In ubuntu )
+2. Install selenium ( In ubuntu )
 #### pip3 install selenium
 
+## Demo :
+For Course Feedback Submitter
+#### https://youtu.be/cXGOjuaWIXc
