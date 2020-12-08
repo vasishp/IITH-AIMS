@@ -1,9 +1,10 @@
-# IITH-AIMS-Grade-Fetcher
-Fetches all the grades of Latest Semester from AIMS Portal of Institute
+# IITH-AIMS Grade-Fetcher & Feedback-Submitter
+Fetches all the grades of latest semester from AIMS Portal
+&  Submits the feedback of running courses in AIMS Portal of the Institue
 
 
 ## Input :
-
+Same for both grade fetcher and feedback submitter
 #### Login ID    
 Roll number
 #### Password : 		              
