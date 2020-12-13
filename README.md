@@ -17,12 +17,40 @@ The output will be printed in the terminal.
 
 ## How to use :
 
-1. Install chrome driver according to the version of your chrome 
-#### https://chromedriver.chromium.org/downloads
+1. Install chrome driver according to the version of your chrome   
+https://chromedriver.chromium.org/downloads
 
 2. Install selenium ( In ubuntu )
 #### pip3 install selenium
 
-## Demo :
-For Course Feedback Submitter
-#### https://youtu.be/cXGOjuaWIXc
+#### Demo For Course Feedback Submitter :  
+https://youtu.be/cXGOjuaWIXc
+
+#### Output Format for Grades Fetcher :
+
+Scrolling Finished!
+
+CourseID  
+CourseName  
+Credits  
+Segment  
+CourseInstructor  
+Grade  
+\------  
+CourseID  
+CourseName  
+Credits  
+Segment  
+CourseInstructor  
+Grade  
+\------  
+CourseID  
+CourseName  
+Credits  
+Segment  
+CourseInstructor  
+Grade  
+\------  
+  
+If the Grade is still not given, the Grade space will be empty.  
+ 
