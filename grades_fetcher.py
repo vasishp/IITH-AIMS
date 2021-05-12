@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from webdriver_manager.chrome import ChromeDriverManager
 
 import time
 
@@ -9,7 +10,7 @@ class Signin :						#Sign in to AIMS
 		self.password = password
 
 	def enter_site(self) :			#Entering AIMS from Home page
-		self.driver = webdriver.Chrome()
+		self.driver = webdriver.Chrome(ChromeDriverManager(version="88.0.4324.96").install())
 		self.driver.get("https://iith.ac.in/")
 		time.sleep(2)
 
