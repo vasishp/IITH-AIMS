@@ -1,9 +1,10 @@
-# IITH-AIMS-Grade-Fetcher
-Fetches all the grades of Latest Semester from AIMS Portal of Institute
+# IITH-AIMS Grade-Fetcher & Feedback-Submitter
+Fetches all the grades of latest semester from AIMS Portal
+&  Submits the feedback of running courses in AIMS Portal of the Institue
 
 
 ## Input :
-
+Same for both grade fetcher and feedback submitter
 #### Login ID    
 Roll number
 #### Password : 		              
@@ -14,11 +15,45 @@ The output will be printed in the terminal.
 
 
 
-## How to use :
+#### How to use :
 
-Install chrome driver according to the version of your chrome 
-#### https://chromedriver.chromium.org/downloads
+1. Install chrome driver according to the version of your chrome   
+https://chromedriver.chromium.org/downloads
 
-Install selenium ( In ubuntu )
-#### pip3 install selenium
+2. Install selenium ( In ubuntu )  
+pip3 install selenium
 
+#### Demo For Course Feedback Submitter :  
+https://youtu.be/cXGOjuaWIXc
+
+#### Output Format for Grades Fetcher :
+
+Scrolling Finished!
+
+CourseID  
+CourseName  
+Credits  
+Segment  
+CourseInstructor  
+Grade  
+\------  
+CourseID  
+CourseName  
+Credits  
+Segment  
+CourseInstructor  
+Grade  
+\------  
+CourseID  
+CourseName  
+Credits  
+Segment  
+CourseInstructor  
+Grade  
+\------  
+  
+If the Grade is still not given, the Grade space will be empty.  
+ 
+
+#### Some reference to match up chrome driver version with chrome ####  
+https://stackoverflow.com/questions/65194694/session-not-created-this-version-of-chromedriver-only-supports-chrome-version-8/65194918
